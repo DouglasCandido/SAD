@@ -1,0 +1,168 @@
+--------------------------------------------------------------------------------
+CÓDIGOS INTERNOS DE BASE DE CONHECIMENTO
+SOBRE O SISTEMA ESPECIALISTA
+  -- Nome:    Sistema de Identificação de Doenças dos Peixes
+  -- Autores: Douglas Mateus Soares Cândido da Silva
+  -- Resumo:
+     Olá, bem vindo(a) ao Sistema de Identificação de Doenças dos Peixes!
+
+SOBRE OS ARQUIVOS
+  Arquivo original: D:\Downloads\sistema_de_identificação_de_doenças_dos_peixes.bcm
+  O sistema não possui recursos de ajuda.
+--------------------------------------------------------------------------------
+
+Variáveis - CÓDIGO, NOME
+
+1, doença
+2, manchasEstruturasAnormais
+3, nataçãoIrregularTremores
+4, pontosVisiveisPele
+5, pontosBrancos
+6, pontosBrilhantes
+7, crostaLimoMofo
+8, limoBrancoAcinzentado
+9, peixeBarrigudoEscamasEriçadas
+10, limoNebuloso
+11, olhosSaltados
+12, peixeMagroVentreRetraído
+13, mucoExcessivoTufos
+14, manchasBrancasTufos
+15, feridasCabeça
+16, nadadeirasDesfiadas
+17, vermelhidãoNadadeiras
+18, escamasEriçadas
+19, respiraçãoOfegante
+
+Variáveis - NOME, CÓDIGO
+
+crostaLimoMofo, 7
+doença, 1
+escamasEriçadas, 18
+feridasCabeça, 15
+limoBrancoAcinzentado, 8
+limoNebuloso, 10
+manchasBrancasTufos, 14
+manchasEstruturasAnormais, 2
+mucoExcessivoTufos, 13
+nadadeirasDesfiadas, 16
+nataçãoIrregularTremores, 3
+olhosSaltados, 11
+peixeBarrigudoEscamasEriçadas, 9
+peixeMagroVentreRetraído, 12
+pontosBrancos, 5
+pontosBrilhantes, 6
+pontosVisiveisPele, 4
+respiraçãoOfegante, 19
+vermelhidãoNadadeiras, 17
+
+Valores - CÓDIGO, NOME, CÓDIGO DA VARIÁVEL, POSIÇÃO
+
+1, Doença dos Pontos Brancos ou Ictio, 1, 1
+2, Doença do Veludo ou Oodiniose, 1, 2
+3, Costiose, 1, 3
+4, Olhos Embaçados, 1, 4
+5, Olhos Inchados, 1, 5
+6, Hidropsia, 1, 6
+7, Tuberculose ou Barriga Seca, 1, 7
+8, Buracos na cabeça, 1, 8
+9, Fungo na Boca, 1, 9
+10, Nadadeiras Roídas, 1, 10
+11, Doença do Algodão, 1, 11
+12, Septicemia, 1, 12
+13, Água muito ácida, 1, 13
+14, Água muito alcalina ou Cloro na água, 1, 14
+
+Valores - NOME, CÓDIGO, CÓDIGO DA VARIÁVEL, POSIÇÃO
+
+Buracos na cabeça, 8, 1, 8
+Costiose, 3, 1, 3
+Doença do Algodão, 11, 1, 11
+Doença do Veludo ou Oodiniose, 2, 1, 2
+Doença dos Pontos Brancos ou Ictio, 1, 1, 1
+Fungo na Boca, 9, 1, 9
+Hidropsia, 6, 1, 6
+Nadadeiras Roídas, 10, 1, 10
+Olhos Embaçados, 4, 1, 4
+Olhos Inchados, 5, 1, 5
+Septicemia, 12, 1, 12
+Tuberculose ou Barriga Seca, 7, 1, 7
+Água muito alcalina ou Cloro na água, 14, 1, 14
+Água muito ácida, 13, 1, 13
+
+Valores - CÓDIGO DA VARIÁVEL, CÓDIGO, NOME, POSIÇÃO
+
+1, 8, Buracos na cabeça, 8
+1, 10, Nadadeiras Roídas, 10
+1, 6, Hidropsia, 6
+1, 12, Septicemia, 12
+1, 4, Olhos Embaçados, 4
+1, 14, Água muito alcalina ou Cloro na água, 14
+1, 2, Doença do Veludo ou Oodiniose, 2
+1, 7, Tuberculose ou Barriga Seca, 7
+1, 9, Fungo na Boca, 9
+1, 5, Olhos Inchados, 5
+1, 11, Doença do Algodão, 11
+1, 3, Costiose, 3
+1, 13, Água muito ácida, 13
+1, 1, Doença dos Pontos Brancos ou Ictio, 1
+
+Regras - POSIÇÃO, NOME, CÓDIGO
+
+1, Doença dos Pontos Brancos ou Ictio, 1
+2, Doença do Veludo ou Oodiniose, 2
+3, Costiose, 3
+4, Olhos Embaçados, 4
+5, Olhos Inchados, 5
+6, Hidropsia, 6
+7, Tuberculose ou Barriga Seca, 7
+8, Buracos na cabeça, 8
+9, Fungo na Boca, 9
+10, Doença do Algodão, 10
+11, Nadadeiras Roídas, 11
+12, Septicemia, 12
+13, Água muito ácida, 13
+14, Água muito alcalina ou Cloro na água, 14
+
+Regras - CÓDIGO, NOME, POSIÇÃO
+
+1, Doença dos Pontos Brancos ou Ictio, 1
+2, Doença do Veludo ou Oodiniose, 2
+3, Costiose, 3
+4, Olhos Embaçados, 4
+5, Olhos Inchados, 5
+6, Hidropsia, 6
+7, Tuberculose ou Barriga Seca, 7
+8, Buracos na cabeça, 8
+9, Fungo na Boca, 9
+10, Doença do Algodão, 10
+11, Nadadeiras Roídas, 11
+12, Septicemia, 12
+13, Água muito ácida, 13
+14, Água muito alcalina ou Cloro na água, 14
+
+Regras - NOME, CÓDIGO, POSIÇÃO
+
+Buracos na cabeça, 8, 8
+Costiose, 3, 3
+Doença do Algodão, 10, 10
+Doença do Veludo ou Oodiniose, 2, 2
+Doença dos Pontos Brancos ou Ictio, 1, 1
+Fungo na Boca, 9, 9
+Hidropsia, 6, 6
+Nadadeiras Roídas, 11, 11
+Olhos Embaçados, 4, 4
+Olhos Inchados, 5, 5
+Septicemia, 12, 12
+Tuberculose ou Barriga Seca, 7, 7
+Água muito alcalina ou Cloro na água, 14, 14
+Água muito ácida, 13, 13
+
+--------------------------------------------------------------------------------
+Gerado com o Expert SINTA versão 1.1b
+(c) 1997 - Universidade Federal do Ceará
+           Laboratório de Inteligência Artificial
+           LIA/UFC
+
+           Utilize esses códigos na programação
+           de front-ends com a Expert SINTA VCL
+--------------------------------------------------------------------------------
